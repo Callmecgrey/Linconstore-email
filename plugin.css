@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200;1,400&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap");
 :root {
-  --bd-frame: #e6fff5;
-  --bd-link: #cbffbf;
-  --bd-primary: #007062;
-  --bd-secondary: #80ffcc;
-  --bd-pure: #ffffff;
+    --bd-frame: #e6fff5;
+    --bd-link: #cbffbf;
+    --bd-primary: #007062;
+    --bd-secondary: #80ffcc;
+    --bd-pure: #ffffff;
 }
 
 body,
@@ -15,91 +15,135 @@ h4,
 h5,
 h6,
 p {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
-  color: var(--bd-primary);
+    text-decoration: none;
+    color: var(--bd-primary);
 }
 
 .container {
-  padding: 0;
-  margin: 0;
-  width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
+
 .container .bd-frame {
-  width: 60%;
-  height: auto;
-  margin: auto;
-  font-family: "Montserrat";
+    width: 60%;
+    height: auto;
+    margin: auto;
+    font-family: "Montserrat";
 }
+
 .container .bd-frame .bd-footer {
-  width: 100%;
-  padding: 2px 20px 20px;
-  background-color: var(--bd-secondary);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+    width: 100%;
+    padding: 2px 20px 20px;
+    background-color: var(--bd-secondary);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 .container .bd-frame .bd-footer .bd-disclaimer {
-  width: 100%;
-  font-size: 12px;
+    width: 100%;
+    font-size: 12px;
 }
+
 .container .bd-frame .bd-footer .bd-address {
-  width: 100%;
-  font-size: 12px;
-  padding-bottom: 5px;
-  text-align: left;
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 5px;
+    text-align: left;
 }
+
 .container .bd-frame .bd-footer .bd-group {
-  padding: 5px 0px 30px 0px;
-  width: 100%;
+    padding: 5px 0px 30px 0px;
+    width: 100%;
 }
+
 .container .bd-frame .bd-footer .bd-group .bd-copyright {
-  width: 70%;
-  float: left;
-  font-size: 12px;
+    width: 70%;
+    float: left;
+    font-size: 12px;
 }
+
 .container .bd-frame .bd-footer .bd-group .bd-slinks {
-  width: 30%;
-  float: right;
-  text-align: end;
+    width: 30%;
+    float: right;
+    text-align: end;
 }
+
 .container .bd-frame .bd-footer .bd-group .bd-slinks a {
-  padding-left: 2px;
+    padding-left: 2px;
 }
+
 .container .bd-frame .bd-footer .bd-group .bd-slinks .bd-ft-svg {
-  width: 15px;
-  height: 15px;
+    width: 15px;
+    height: 15px;
 }
+
 .container .bd-frame .bd-body {
-  padding: 2px 20px 15px;
-  height: auto;
-  width: 100%;
+    padding: 2px 20px 15px;
+    height: auto;
+    width: 100%;
 }
+
 .container .bd-frame .bd-body p {
-  text-align: left;
+    text-align: left;
 }
+
 .container .bd-frame .bd-body h1,
 .container .bd-frame .bd-body h2,
 .container .bd-frame .bd-body h3,
 .container .bd-frame .bd-body h4,
 .container .bd-frame .bd-body h5,
 .container .bd-frame .bd-body h6 {
-  text-align: left;
-  font-family: sans-serif;
-  padding-bottom: 5px;
+    text-align: left;
+    font-family: sans-serif;
+    padding-bottom: 5px;
 }
+
 .container .bd-frame .bd-header {
-  width: 100%;
-  min-height: 50px;
-  max-height: 90px;
-  padding: 45px 20px 15px;
+    width: 100%;
+    min-height: 50px;
+    max-height: 90px;
+    padding: 45px 20px 15px;
 }
+
 .container .bd-frame .bd-header .bd-logo {
-  min-width: 80px;
-  min-height: 22px;
-  max-width: 120px;
-  max-height: 40px;
-}/*# sourceMappingURL=plugin.css.map */
+    min-width: 80px;
+    min-height: 22px;
+    max-width: 120px;
+    max-height: 40px;
+}
+
+@media only screen and (max-width:700) {
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .container .bd-frame {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        font-family: "Montserrat";
+    }
+    .container .bd-frame .bd-footer {
+        width: 100%;
+        padding: 2px 20px 20px;
+        background-color: var(--bd-secondary);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+
+/*# sourceMappingURL=plugin.css.map */
