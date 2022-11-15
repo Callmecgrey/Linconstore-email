@@ -118,32 +118,5 @@ a {
     max-height: 40px;
 }
 
-@media only screen and (max-width:700) {
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-        padding: 0;
-        margin: 0;
-    }
-    .container .bd-frame {
-        width: 90%;
-        height: auto;
-        margin: auto;
-        font-family: "Montserrat";
-    }
-    .container .bd-frame .bd-footer {
-        width: 100%;
-        padding: 2px 20px 20px;
-        background-color: var(--bd-secondary);
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-}
-
 
 /*# sourceMappingURL=plugin.css.map */
