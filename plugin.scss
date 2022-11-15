@@ -29,11 +29,16 @@
         padding: 0;
         margin: 0;
         width: 100%;
+        overflow: hidden;
         & .bd-frame {
             width: 60%;
             height: auto;
             margin: auto;
             font-family: 'Montserrat';
+            @media all and (max-width: 700px) {
+                width: 90%;
+                margin: auto;
+            }
             & .bd-footer {
                 width: 100%;
                 padding: 2px 20px 20px;
@@ -73,9 +78,16 @@
                 }
             }
             & .bd-body {
-                padding: 2px 20px 15px;
+                padding: 2px 20px 15px 20px;
                 height: auto;
                 width: 100%;
+                margin: auto;
+                @media all and (max-width: 700px) {
+                    padding: 2px 10px 7px 10px;
+                    font-size: 15px;
+                    width: 100%;
+                    margin: auto;
+                }
                 & p {
                     text-align: left;
                 }
@@ -95,11 +107,23 @@
                 min-height: 50px;
                 max-height: 90px;
                 padding: 45px 20px 15px;
+                @media all and (max-width: 700px) {
+                    width: 100px;
+                    min-height: 35px;
+                    max-width: 50px;
+                    padding: 20px;
+                }
                 & .bd-logo {
                     min-width: 80px;
                     min-height: 22px;
                     max-width: 120px;
                     max-height: 40px;
+                    @media all and (max-width: 700px) {
+                        min-width: 60px;
+                        min-height: 14px;
+                        max-width: 80px;
+                        max-height: 20px;
+                    }
                 }
             }
         }
